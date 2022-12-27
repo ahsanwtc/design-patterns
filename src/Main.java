@@ -1,8 +1,10 @@
-import momento.Demo;
+import state.StateDemo;
 
 public class Main {
   public static void main(String[] args) {
     /* Momento Pattern */
-    Demo.main();
+    // Demo.main();
+
+    StateDemo.main();
   }
 }
