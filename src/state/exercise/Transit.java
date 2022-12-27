@@ -1,0 +1,15 @@
+package state.exercise;
+
+public class Transit implements TravelMode {
+  @Override
+  public Object getEta() {
+    System.out.println("Calculating ETA (transit)");
+    return 3;
+  }
+
+  @Override
+  public Object getDirections() {
+    System.out.println("Calculating Direction (transit)");
+    return 3;
+  }
+}

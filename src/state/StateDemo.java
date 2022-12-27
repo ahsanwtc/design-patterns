@@ -1,7 +1,10 @@
 package state;
 
+import state.exercise.DirectionServiceNew;
+import state.exercise.Walking;
+
 public class StateDemo {
-  static boolean exercise = false;
+  static boolean exercise = true;
   public static void main() {
     if (StateDemo.exercise == false) {
       var canvas = new Canvas();
@@ -16,6 +19,10 @@ public class StateDemo {
       canvas.setCurrentTool(new EraserTool());
       canvas.mouseDown();
       canvas.mouseUp();
+    } else {
+      DirectionServiceNew directionService = new DirectionServiceNew(new Walking());
+      directionService.getEta();
+      directionService.getDirection();
     }
   }
 }
