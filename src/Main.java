@@ -1,3 +1,4 @@
+import iterator.IteratorDemo;
 import state.StateDemo;
 
 public class Main {
@@ -5,6 +6,10 @@ public class Main {
     /* Momento Pattern */
     // Demo.main();
 
-    StateDemo.main();
+    /* State Pattern */
+    // StateDemo.main();
+
+    /* Iterator Pattern */
+    IteratorDemo.main();
   }
 }

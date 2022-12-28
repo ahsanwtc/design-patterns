@@ -6,3 +6,6 @@ A simple project to learn about design patterns in software engineering.
 
 ## State Pattern
 ![State Pattern](./images/state-pattern.svg)
+
+## Iterator Pattern
+![Iterator Pattern](./images/iterator-pattern.svg)
