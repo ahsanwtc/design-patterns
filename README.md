@@ -12,3 +12,6 @@ A simple project to learn about design patterns in software engineering.
 
 ## Strategy Pattern
 ![Strategy Pattern](./images/strategy-pattern.svg)
+
+## Template Method Pattern
+![Template Method Pattern](./images/template-method-pattern.svg)

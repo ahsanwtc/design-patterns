@@ -1,6 +1,7 @@
 import iterator.IteratorDemo;
 import state.StateDemo;
 import strategy.StrategyDemo;
+import template.TemplateMethodDemo;
 
 public class Main {
   public static void main(String[] args) {
@@ -13,7 +14,10 @@ public class Main {
     /* Iterator Pattern */
     // IteratorDemo.main();
 
-    /* Iterator Pattern */
-    StrategyDemo.main();
+    /* Strategy Pattern */
+    // StrategyDemo.main();
+
+    /* Template Method Pattern */
+    TemplateMethodDemo.main();
   }
 }
