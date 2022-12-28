@@ -1,5 +1,6 @@
 import iterator.IteratorDemo;
 import state.StateDemo;
+import strategy.StrategyDemo;
 
 public class Main {
   public static void main(String[] args) {
@@ -10,6 +11,9 @@ public class Main {
     // StateDemo.main();
 
     /* Iterator Pattern */
-    IteratorDemo.main();
+    // IteratorDemo.main();
+
+    /* Iterator Pattern */
+    StrategyDemo.main();
   }
 }

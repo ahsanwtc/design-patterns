@@ -9,3 +9,6 @@ A simple project to learn about design patterns in software engineering.
 
 ## Iterator Pattern
 ![Iterator Pattern](./images/iterator-pattern.svg)
+
+## Strategy Pattern
+![Strategy Pattern](./images/strategy-pattern.svg)
