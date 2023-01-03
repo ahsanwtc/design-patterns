@@ -21,3 +21,6 @@ A simple project to learn about design patterns in software engineering.
 
 ### Undo Command 
 ![Undo Command Pattern](./images/undo-command-pattern.svg)
+
+## Observer Pattern
+![Observer Pattern](./images/observer-pattern.svg)
