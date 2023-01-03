@@ -1,3 +1,4 @@
+import command.CommandDemo;
 import iterator.IteratorDemo;
 import state.StateDemo;
 import strategy.StrategyDemo;
@@ -18,6 +19,9 @@ public class Main {
     // StrategyDemo.main();
 
     /* Template Method Pattern */
-    TemplateMethodDemo.main();
+    // TemplateMethodDemo.main();
+
+    /* Command Pattern */
+    CommandDemo.main();
   }
 }

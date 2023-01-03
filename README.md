@@ -15,3 +15,6 @@ A simple project to learn about design patterns in software engineering.
 
 ## Template Method Pattern
 ![Template Method Pattern](./images/template-method-pattern.svg)
+
+## Command Pattern
+![Command Pattern](./images/command-pattern.svg)
