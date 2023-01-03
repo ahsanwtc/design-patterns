@@ -1,5 +1,9 @@
 package command;
 
+import command.editor.BoldCommand;
+import command.editor.History;
+import command.editor.HtmlDocument;
+import command.editor.UndoCommand;
 import command.framework.Button;
 
 public class CommandDemo {
@@ -19,5 +23,20 @@ public class CommandDemo {
 
     // replaying a composite command
     commands.execute();
+
+    /* undoable command */
+    System.out.println(".....undoable command.....");
+    var document = new HtmlDocument();
+    var history = new History();
+    document.setContent("Hello World");
+
+    var boldCommand = new BoldCommand(document, history);
+    boldCommand.execute();
+    System.out.println(document.getContent());
+
+    // undo
+    var undoCommand = new UndoCommand(history);
+    undoCommand.execute();
+    System.out.println(document.getContent());
   }
 }
