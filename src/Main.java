@@ -6,6 +6,7 @@ import observer.ObserverDemo;
 import state.StateDemo;
 import strategy.StrategyDemo;
 import template.TemplateMethodDemo;
+import visitor.VisitorDemo;
 
 public class Main {
   public static void main(String[] args) {
@@ -34,6 +35,9 @@ public class Main {
     // MediatorDemo.main();
 
     /* Chain of Responsibility Pattern */
-    ChainOfResponsibilityDemo.main();
+    // ChainOfResponsibilityDemo.main();
+
+    /* Visitor Pattern */
+    VisitorDemo.main();
   }
 }

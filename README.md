@@ -30,3 +30,6 @@ A simple project to learn about design patterns in software engineering.
 
 ## Chain of Responsibility Pattern
 ![Chain of Responsibility Pattern](./images/chain-of-responsibility-pattern.svg)
+
+## Visitor Pattern
+![Visitor Pattern](./images/visitor-pattern.svg)
