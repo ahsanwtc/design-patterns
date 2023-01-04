@@ -1,5 +1,6 @@
 import command.CommandDemo;
 import iterator.IteratorDemo;
+import mediator.MediatorDemo;
 import observer.ObserverDemo;
 import state.StateDemo;
 import strategy.StrategyDemo;
@@ -26,6 +27,9 @@ public class Main {
     // CommandDemo.main();
 
     /* Observer Pattern */
-    ObserverDemo.main();
+    // ObserverDemo.main();
+
+    /* Mediator Pattern */
+    MediatorDemo.main();
   }
 }

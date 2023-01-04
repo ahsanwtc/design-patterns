@@ -24,3 +24,6 @@ A simple project to learn about design patterns in software engineering.
 
 ## Observer Pattern
 ![Observer Pattern](./images/observer-pattern.svg)
+
+## Mediator Pattern
+![Mediator Pattern](./images/mediator-pattern.svg)
