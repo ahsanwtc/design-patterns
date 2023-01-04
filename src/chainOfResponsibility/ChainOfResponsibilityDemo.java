@@ -1,10 +1,27 @@
 package chainOfResponsibility;
 
+import chainOfResponsibility.exercise.*;
+
 public class ChainOfResponsibilityDemo {
-  public static boolean exercise = false;
+  public static boolean exercise = true;
 
   public static void main() {
     if (ChainOfResponsibilityDemo.exercise) {
+      var excelReader = new ExcelReader(null);
+      var numbersReader = new NumbersReader(excelReader);
+      var quickbooksReader = new QuickbooksReader(numbersReader);
+
+      var reader = new DataReaderNew(quickbooksReader);
+
+      System.out.println("file 1");
+      reader.read(new File("xls"));
+
+      System.out.println("file s");
+      reader.read(new File("qbw"));
+
+      System.out.println("file 3");
+      reader.read(new File("numbers"));
+
       return;
     }
 
