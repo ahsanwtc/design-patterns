@@ -1,3 +1,4 @@
+import chainOfResponsibility.ChainOfResponsibilityDemo;
 import command.CommandDemo;
 import iterator.IteratorDemo;
 import mediator.MediatorDemo;
@@ -30,6 +31,9 @@ public class Main {
     // ObserverDemo.main();
 
     /* Mediator Pattern */
-    MediatorDemo.main();
+    // MediatorDemo.main();
+
+    /* Chain of Responsibility Pattern */
+    ChainOfResponsibilityDemo.main();
   }
 }

@@ -27,3 +27,6 @@ A simple project to learn about design patterns in software engineering.
 
 ## Mediator Pattern
 ![Mediator Pattern](./images/mediator-pattern.svg)
+
+## Chain of Responsibility Pattern
+![Chain of Responsibility Pattern](./images/chain-of-responsibility-pattern.svg)
