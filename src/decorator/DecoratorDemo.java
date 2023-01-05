@@ -1,10 +1,13 @@
 package decorator;
 
+import decorator.exercise.Demo;
+
 public class DecoratorDemo {
-  public static boolean exercise = false;
+  public static boolean exercise = true;
 
   public static void main() {
     if (exercise) {
+      Demo.show();
       return;
     }
 
