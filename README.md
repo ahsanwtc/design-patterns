@@ -42,3 +42,6 @@ A simple project to learn about design patterns in software engineering.
 
 ## Decorator Pattern
 ![Decorator Pattern](./images/decorator-pattern.svg)
+
+## Facade Pattern
+![Facade Pattern](./images/facade-pattern.svg)
