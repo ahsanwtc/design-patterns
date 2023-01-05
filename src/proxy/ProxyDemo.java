@@ -1,10 +1,15 @@
 package proxy;
 
+import proxy.exercise.Demo;
+
 public class ProxyDemo {
-  public static boolean exercise = false;
+  public static boolean exercise = true;
 
   public static void main() {
     if (exercise) {
+      Demo.show();
+      System.out.println("-------------------------------------------------");
+      Demo.solution();
       return;
     }
 
