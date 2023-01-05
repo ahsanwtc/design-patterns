@@ -1,3 +1,4 @@
+import adapter.AdapterDemo;
 import chainOfResponsibility.ChainOfResponsibilityDemo;
 import command.CommandDemo;
 import composite.CompositeDemo;
@@ -42,6 +43,9 @@ public class Main {
     // VisitorDemo.main();
 
     /* Composite Pattern */
-    CompositeDemo.main();
+    // CompositeDemo.main();
+
+    /* Adapter Pattern */
+    AdapterDemo.main();
   }
 }
