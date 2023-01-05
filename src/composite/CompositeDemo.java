@@ -1,10 +1,30 @@
 package composite;
 
+import composite.exercise.solution.HumanResource;
+import composite.exercise.solution.Team;
+import composite.exercise.solution.Truck;
+
 public class CompositeDemo {
-  public static boolean exercise = false;
+  public static boolean exercise = true;
 
   public static void main() {
     if (CompositeDemo.exercise) {
+      var subTeam1 = new Team();
+      subTeam1.add(new Truck());
+      subTeam1.add(new HumanResource());
+      subTeam1.add(new HumanResource());
+
+      var subTeam2 = new Team();
+      subTeam1.add(new Truck());
+      subTeam1.add(new HumanResource());
+      subTeam1.add(new HumanResource());
+
+      var team = new Team();
+      team.add(subTeam1);
+      team.add(subTeam2);
+
+      team.deploy();
+
       return;
     }
 
