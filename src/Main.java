@@ -1,5 +1,6 @@
 import chainOfResponsibility.ChainOfResponsibilityDemo;
 import command.CommandDemo;
+import composite.CompositeDemo;
 import iterator.IteratorDemo;
 import mediator.MediatorDemo;
 import observer.ObserverDemo;
@@ -38,6 +39,9 @@ public class Main {
     // ChainOfResponsibilityDemo.main();
 
     /* Visitor Pattern */
-    VisitorDemo.main();
+    // VisitorDemo.main();
+
+    /* Composite Pattern */
+    CompositeDemo.main();
   }
 }

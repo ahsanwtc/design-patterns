@@ -33,3 +33,6 @@ A simple project to learn about design patterns in software engineering.
 
 ## Visitor Pattern
 ![Visitor Pattern](./images/visitor-pattern.svg)
+
+## Composite Pattern
+![Composite Pattern](./images/composite-pattern.svg)
