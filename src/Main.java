@@ -4,6 +4,7 @@ import command.CommandDemo;
 import composite.CompositeDemo;
 import decorator.DecoratorDemo;
 import facade.FacadeDemo;
+import flyweight.FlyweightDemo;
 import iterator.IteratorDemo;
 import mediator.MediatorDemo;
 import observer.ObserverDemo;
@@ -53,7 +54,10 @@ public class Main {
     /* Decorator Pattern */
     // DecoratorDemo.main();
 
-    /* Decorator Pattern */
-    FacadeDemo.main();
+    /* Facade Pattern */
+    // FacadeDemo.main();
+
+    /* Flyweight Pattern */
+    FlyweightDemo.main();
   }
 }
