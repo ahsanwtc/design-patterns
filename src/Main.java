@@ -1,4 +1,5 @@
 import adapter.AdapterDemo;
+import bridge.BridgeDemo;
 import chainOfResponsibility.ChainOfResponsibilityDemo;
 import command.CommandDemo;
 import composite.CompositeDemo;
@@ -58,6 +59,9 @@ public class Main {
     // FacadeDemo.main();
 
     /* Flyweight Pattern */
-    FlyweightDemo.main();
+    // FlyweightDemo.main();
+
+    /* Bridge Pattern */
+    BridgeDemo.main();
   }
 }

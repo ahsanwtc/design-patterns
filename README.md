@@ -45,3 +45,9 @@ A simple project to learn about design patterns in software engineering.
 
 ## Facade Pattern
 ![Facade Pattern](./images/facade-pattern.svg)
+
+## Flyweight Pattern
+![Flyweight Pattern](./images/flyweight-pattern.svg)
+
+## Bridge Pattern
+![Bridge Pattern](./images/bridge-pattern.svg)
