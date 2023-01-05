@@ -51,3 +51,6 @@ A simple project to learn about design patterns in software engineering.
 
 ## Bridge Pattern
 ![Bridge Pattern](./images/bridge-pattern.svg)
+
+## Proxy Pattern
+![Proxy Pattern](./images/proxy-pattern.svg)

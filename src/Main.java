@@ -9,6 +9,7 @@ import flyweight.FlyweightDemo;
 import iterator.IteratorDemo;
 import mediator.MediatorDemo;
 import observer.ObserverDemo;
+import proxy.ProxyDemo;
 import state.StateDemo;
 import strategy.StrategyDemo;
 import template.TemplateMethodDemo;
@@ -62,6 +63,9 @@ public class Main {
     // FlyweightDemo.main();
 
     /* Bridge Pattern */
-    BridgeDemo.main();
+    // BridgeDemo.main();
+
+    /* Bridge Pattern */
+    ProxyDemo.main();
   }
 }
