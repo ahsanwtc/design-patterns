@@ -2,6 +2,7 @@ import adapter.AdapterDemo;
 import chainOfResponsibility.ChainOfResponsibilityDemo;
 import command.CommandDemo;
 import composite.CompositeDemo;
+import decorator.DecoratorDemo;
 import iterator.IteratorDemo;
 import mediator.MediatorDemo;
 import observer.ObserverDemo;
@@ -46,6 +47,9 @@ public class Main {
     // CompositeDemo.main();
 
     /* Adapter Pattern */
-    AdapterDemo.main();
+    // AdapterDemo.main();
+
+    /* Decorator Pattern */
+    DecoratorDemo.main();
   }
 }

@@ -39,3 +39,6 @@ A simple project to learn about design patterns in software engineering.
 
 ## Adapter Pattern
 ![Adapter Pattern](./images/adapter-pattern.svg)
+
+## Decorator Pattern
+![Decorator Pattern](./images/decorator-pattern.svg)
