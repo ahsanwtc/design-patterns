@@ -60,3 +60,7 @@ A simple project to learn about design patterns in software engineering.
 
 ## Factory Pattern
 ![Factory Pattern](./images/factory-pattern.svg)
+
+## Abstract Factory Pattern
+Provides an interface for creating families of related objects.
+![Abstract Factory Pattern](./images/abstract-factory-pattern.svg)

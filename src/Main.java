@@ -1,3 +1,4 @@
+import abstractFactory.AbstractFactoryDemo;
 import adapter.AdapterDemo;
 import bridge.BridgeDemo;
 import chainOfResponsibility.ChainOfResponsibilityDemo;
@@ -74,6 +75,9 @@ public class Main {
     // SingletonDemo.main();
 
     /* Factory Pattern */
-    FactoryDemo.main();
+    // FactoryDemo.main();
+
+    /* Abstract Factory Pattern */
+    AbstractFactoryDemo.main();
   }
 }
