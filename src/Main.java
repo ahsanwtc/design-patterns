@@ -5,6 +5,7 @@ import command.CommandDemo;
 import composite.CompositeDemo;
 import decorator.DecoratorDemo;
 import facade.FacadeDemo;
+import factory.FactoryDemo;
 import flyweight.FlyweightDemo;
 import iterator.IteratorDemo;
 import mediator.MediatorDemo;
@@ -70,6 +71,9 @@ public class Main {
     // ProxyDemo.main();
 
     /* Singleton Pattern */
-    SingletonDemo.main();
+    // SingletonDemo.main();
+
+    /* Factory Pattern */
+    FactoryDemo.main();
   }
 }

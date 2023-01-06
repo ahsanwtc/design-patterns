@@ -57,3 +57,6 @@ A simple project to learn about design patterns in software engineering.
 
 ## Prototype Pattern
 ![Prototype Pattern](./images/prototype-pattern.svg)
+
+## Factory Pattern
+![Factory Pattern](./images/factory-pattern.svg)
