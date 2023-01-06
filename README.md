@@ -64,3 +64,7 @@ A simple project to learn about design patterns in software engineering.
 ## Abstract Factory Pattern
 Provides an interface for creating families of related objects.
 ![Abstract Factory Pattern](./images/abstract-factory-pattern.svg)
+
+## Builder Pattern
+To separate the construction of object from its representation.
+![Builder Pattern](./images/builder-pattern.svg)

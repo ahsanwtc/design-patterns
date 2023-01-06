@@ -1,6 +1,7 @@
 import abstractFactory.AbstractFactoryDemo;
 import adapter.AdapterDemo;
 import bridge.BridgeDemo;
+import builder.BuilderDemo;
 import chainOfResponsibility.ChainOfResponsibilityDemo;
 import command.CommandDemo;
 import composite.CompositeDemo;
@@ -78,6 +79,9 @@ public class Main {
     // FactoryDemo.main();
 
     /* Abstract Factory Pattern */
-    AbstractFactoryDemo.main();
+    // AbstractFactoryDemo.main();
+
+    /* Builder Pattern */
+    BuilderDemo.main();
   }
 }
