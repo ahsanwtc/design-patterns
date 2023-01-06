@@ -10,6 +10,7 @@ import iterator.IteratorDemo;
 import mediator.MediatorDemo;
 import observer.ObserverDemo;
 import proxy.ProxyDemo;
+import singleton.SingletonDemo;
 import state.StateDemo;
 import strategy.StrategyDemo;
 import template.TemplateMethodDemo;
@@ -65,7 +66,10 @@ public class Main {
     /* Bridge Pattern */
     // BridgeDemo.main();
 
-    /* Bridge Pattern */
-    ProxyDemo.main();
+    /* Proxy Pattern */
+    // ProxyDemo.main();
+
+    /* Singleton Pattern */
+    SingletonDemo.main();
   }
 }
