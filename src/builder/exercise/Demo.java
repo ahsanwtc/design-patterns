@@ -26,7 +26,7 @@ public class Demo {
 
     String path = System.getProperty("user.dir") + "/src/builder/solution/";
 
-    // document.export(new HtmlBuilder(), path + "export.html");
+    document.export(new HtmlBuilder(), path + "export.html");
 
     // Only writes the text elements to the file
     document.export(new TextBuilder(), path + "export.txt");

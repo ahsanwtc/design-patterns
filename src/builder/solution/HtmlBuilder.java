@@ -14,7 +14,7 @@ public class HtmlBuilder implements IFileBuilder {
       document.add(new HtmlParagraph(text));
     }
 
-    else if (element instanceof builder.exercise.Image) {
+    else if (element instanceof Image) {
       var source = ((Image)element).getSource();
       document.add(new HtmlImage(source));
     }
@@ -22,7 +22,7 @@ public class HtmlBuilder implements IFileBuilder {
 
   @Override
   public String getText() {
-    return null;
+    return document.toString();
   }
 
   public String getDocument() {
