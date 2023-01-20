@@ -58,6 +58,10 @@ A simple project to learn about design patterns in software engineering.
 ## Prototype Pattern
 ![Prototype Pattern](./images/prototype-pattern.svg)
 
+## Singleton Pattern
+- Enforces one and only one object of a Singleton class.
+- Has the Singleton object globally accessible.
+
 ## Factory Pattern
 ![Factory Pattern](./images/factory-pattern.svg)
 
