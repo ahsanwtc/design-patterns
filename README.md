@@ -44,6 +44,17 @@ A simple project to learn about design patterns in software engineering.
 ![Decorator Pattern](./images/decorator-pattern.svg)
 
 ## Facade Pattern
+
+A facade simply acts as a point of entry into your subsystem.
+
+A facade design pattern: 
+- Is a means to hide the complexity of a subsystem by encapsulating it behind a unifying wrapper called a facade class.
+- Removes the need for client classes to manage a subsystem on their own, resulting in less coupling between the
+  subsystem and the client classes.
+- Handles instantiation and redirection of tasks to the appropriate class within the subsystem.
+- Provides client classes with a simplified interface for the subsystem.
+- Acts simply as a point of entry to a subsystem and does not add more functionality to the subsystem.
+
 ![Facade Pattern](./images/facade-pattern.svg)
 
 ## Flyweight Pattern
