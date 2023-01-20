@@ -39,6 +39,15 @@ implementations are provided by the subclasses.
 ![Mediator Pattern](./images/mediator-pattern.svg)
 
 ## Chain of Responsibility Pattern
+
+The Chain of Responsibility is a series of handler objects that are linked together. These handlers have methods that 
+are written to handle specific requests. When a client object sends a request, the first handler in the chain will try 
+to process it. If the handler can process the request, the request ends at this handler. If the handler cannot deal 
+with the request, the handler will send the request to the next handler in the chain who will try to process the 
+request. Again, if the handler cannot process the request, it will send the request onto the next handler. This passing 
+of the request continues until we find the handler that can process the request. If the request goes through the entire 
+chain of handlers and no handler can process it, then the request is not satisfied.
+
 ![Chain of Responsibility Pattern](./images/chain-of-responsibility-pattern.svg)
 
 ## Visitor Pattern
