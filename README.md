@@ -14,6 +14,16 @@ A simple project to learn about design patterns in software engineering.
 ![Strategy Pattern](./images/strategy-pattern.svg)
 
 ## Template Method Pattern
+
+The template method can be helpful if you have two classes with similar functionality. When you notice two classes 
+with a very similar order of operations, you can choose to use a template method. The template method pattern is a 
+practical application of generalization and inheritance. When writing software, you might notice two separate classes 
+that share similarities like each having a method with a very similar algorithm. Rather than making changes to these 
+algorithms in two places, you can consolidate the algorithms to one place within a template method of a superclass for 
+the two classes. You generalize from two separate methods into one template method within a superclass which will be 
+inherited by the two classes. The differences in the algorithms would be done through calls to abstract methods whose 
+implementations are provided by the subclasses.
+
 ![Template Method Pattern](./images/template-method-pattern.svg)
 
 ## Command Pattern
@@ -64,6 +74,19 @@ An Adapter design pattern is meant to:
 
 
 ## Decorator Pattern
+The key concepts for this design pattern are that:
+- We can add in effect any number of behaviors dynamically to an object at runtime by using aggregation as a substitute 
+  for pure inheritance. 
+- Polymorphism is achieved by implementing a single interface. 
+- Aggregation lets us create a stack of objects. 
+- Each decorator object in the stack is aggregated in a one-to-one relationship with the object below it in the stack. 
+- And, by combining aggregation and polymorphism, we can recursively invoke the same behavior down the stack and have 
+  the behavior execute upwards from the concrete component object. 
+
+Not only does the decorator design pattern let you dynamically modify objects, but it also reduces the variety of 
+classes you would need to write. Using design patterns like the decorator pattern will help you create complex 
+software without the complex overhead.
+
 ![Decorator Pattern](./images/decorator-pattern.svg)
 
 ## Facade Pattern
