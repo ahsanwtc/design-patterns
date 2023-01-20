@@ -63,7 +63,11 @@ A simple project to learn about design patterns in software engineering.
 - Has the Singleton object globally accessible.
 
 ## Factory Pattern
-If there are multiple clients that want to instantiate the same set of classes, then by using a Factory object, you have cut out redundant code and made the software easier to modify.
+If there are multiple clients that want to instantiate the same set of classes, then by using a Factory object, you 
+have cut out redundant code and made the software easier to modify.
+
+The Factory Method design intent is to define an interface for creating objects, but let the subclasses decide which
+class to instantiate.
 
 ![Factory Pattern](./images/factory-pattern.svg)
 
