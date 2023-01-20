@@ -38,7 +38,15 @@ A simple project to learn about design patterns in software engineering.
 ![Composite Pattern](./images/composite-pattern.svg)
 
 ## Adapter Pattern
+
+An Adapter design pattern is meant to:
+- Wrap the adaptee and expose a target interface to the client.
+- Indirectly change the adaptee`s interface into one that the client is expecting by implementing a target interface.
+- Indirectly translate the client`s request into one that the adaptee is expecting.
+- Reuse an existing adaptee with an incompatible interface.
+
 ![Adapter Pattern](./images/adapter-pattern.svg)
+
 
 ## Decorator Pattern
 ![Decorator Pattern](./images/decorator-pattern.svg)
