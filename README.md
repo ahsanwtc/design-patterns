@@ -5,6 +5,10 @@ A simple project to learn about design patterns in software engineering.
 
 
 ## State Pattern
+
+The state pattern is useful when you need to change the behavior of an object based upon changes to its internal state. 
+You can also use the pattern to simplify methods with long conditionals that depend on the object state.
+
 ![State Pattern](./images/state-pattern.svg)
 
 ## Iterator Pattern
