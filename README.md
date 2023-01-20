@@ -87,6 +87,20 @@ A facade design pattern:
 ![Bridge Pattern](./images/bridge-pattern.svg)
 
 ## Proxy Pattern
+
+The proxy design pattern provides your system with a powerful means of indirection. Proxy classes are robust and can 
+let you build systems that are more secure and less resource-intensive.
+
+The main features of the proxy design pattern are:
+
+- to use the proxy class to wrap the real subject class,
+- to have a polymorphic design so that the client class can expect the same interface for the proxy and real subject
+  classes,
+- to use a lightweight proxy in place of a resource intensive object until it is actually needed,
+- to implement some form of intelligent verification of requests from client code in order to determine if, how,
+  and to whom the requests should be forwarded to,
+- and to present a local representation of a system that is not in the same physical or virtual space.
+
 ![Proxy Pattern](./images/proxy-pattern.svg)
 
 ## Prototype Pattern
