@@ -35,7 +35,22 @@ A simple project to learn about design patterns in software engineering.
 ![Visitor Pattern](./images/visitor-pattern.svg)
 
 ## Composite Pattern
+
+The Composite Design Pattern achieves two goals. To compose nested structures of objects, and to deal with the classes 
+for these objects uniformly. The pattern follows this basic design.
+
 ![Composite Pattern](./images/composite-pattern.svg)
+
+The composite design pattern is used to address:
+- How do we use individual types of objects to build a tree-like structure? and
+- How can we treat the individual types of objects uniformly without checking their types?
+
+![Composite Pattern](./images/composite-pattern-example.svg)
+
+the composite design pattern is used to solve the issues of how to build a tree-like structure of objects, and how to 
+treat the individual types of those objects uniformly. This is achieved by enforcing polymorphism across each class 
+through implementing an interface or inheriting from a superclass. And using a technique called recursive composition, 
+which allows objects to be composed of other objects that are of a common type.
 
 ## Adapter Pattern
 
