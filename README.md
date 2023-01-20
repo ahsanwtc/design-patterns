@@ -31,6 +31,20 @@ implementations are provided by the subclasses.
 ![Template Method Pattern](./images/template-method-pattern.svg)
 
 ## Command Pattern
+
+Command Pattern allows you to manipulate the commands as objects the way you could not do with method calls. Working 
+with command objects allows you to add the functionalities like putting commands into queues and adding an undo/redo 
+function. Another main benefit of the command pattern is that it decouples the objects of your software program. 
+When you have a class that wants to make a request, that class doesn't need to know about the other objects in the 
+software system. It can simply just create a command object and let the command object deal with the work by 
+invoking the receiver objects, like with the boss memo example I mentioned earlier. The object doesn't need to know 
+who deals with the request anymore, like how the boss doesn't need to know which worker will deal with the task. 
+The command pattern also allows you to pull out logic from your user interfaces. Usually, code-to-handle requests is 
+put into the event handlers of user interfaces. However, it doesn't really make sense to have a lot of application 
+logic sitting in your user interface classes. The user interface classes should only be dealing with user interface 
+issues like getting information to and from the user. Instead, the command pattern creates a new layer which is where 
+these command objects will go.
+
 ![Command Pattern](./images/command-pattern.svg)
 
 ### Undo Command 
