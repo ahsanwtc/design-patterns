@@ -54,6 +54,19 @@ these command objects will go.
 ![Observer Pattern](./images/observer-pattern.svg)
 
 ## Mediator Pattern
+
+Mediator pattern will add an object that will talk to all of these other objects and coordinate their activities. 
+Instead of objects being engaged in various pairwise interactions, they all interact through the Mediator. The 
+communication between an object and the mediator is two-way: the object informs the mediator when something happens.
+
+The objects associated with your mediator are called colleagues. You define an interface for the interactions between 
+the mediator and colleagues, then instantiate a concrete mediator and concrete colleagues as necessary.
+
+The communication could be implemented as an Observer pattern. Each Colleague is a subclass of the Observable class, 
+and the Mediator is an Observer to each of them. In this case, the colleague should pass itself as a parameter to the 
+mediator, so that the mediator knows to check that colleague instead of checking all of them. The communication could 
+also occur through an event infrastructure.
+
 ![Mediator Pattern](./images/mediator-pattern.svg)
 
 ## Chain of Responsibility Pattern
